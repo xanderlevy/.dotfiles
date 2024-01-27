@@ -30,18 +30,18 @@ lazy.setup({
   -- require("rin.theme.tokyodark").plugin,
   -- require("rin.theme.iceberg").plugin,
   -- require("rin.theme.kanagawa").plugin,
-  -- require("rin.theme.nightfox").plugin,
+  require("rin.theme.nightfox").plugin,
   -- require("rin.theme.nightfly").plugin,
   -- require("rin.theme.catppuccin").plugin,
   -- require("rin.theme.material").plugin,
 
   -- # UI
-  require("rin.UI.noice").plugin,
+--  require("rin.UI.noice").plugin,
 
   -- # Buffer
   -- require("rin.buffer.barbar").plugin,
   -- require("rin.buffer.bufferline").plugin,
-  require("rin.buffer.tabby").plugin,
+  --require("rin.buffer.tabby").plugin,
   require("rin.buffer.buffer_manager").plugin,
 
   -- # Terminal
@@ -67,7 +67,7 @@ lazy.setup({
   require("rin.LSP.main").plugin,
 
   -- # Outline
-  require("rin.outline.aerial").plugin,
+  --require("rin.outline.aerial").plugin,
 
   -- # DAP
   require("rin.DAP.main").plugin,

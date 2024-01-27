@@ -12,9 +12,9 @@ M.setup = function()
   -- # Personal Preferences
 
   require("rin.personal.indent").setup()
-  require("rin.personal.line").setup()
+ -- require("rin.personal.line").setup()
   require("rin.personal.window").setup()
-  require("rin.personal.tab").setup()
+ -- require("rin.personal.tab").setup()
   require("rin.personal.mouse").setup()
 end
 
