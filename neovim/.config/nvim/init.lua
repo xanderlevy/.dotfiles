@@ -26,7 +26,7 @@ require("rin.personal.main").setup()
 lazy.setup({
 
   -- # Theme
-  require("rin.theme.tokyonight").plugin,
+  --require("rin.theme.tokyonight").plugin,
   -- require("rin.theme.tokyodark").plugin,
   -- require("rin.theme.iceberg").plugin,
   -- require("rin.theme.kanagawa").plugin,
@@ -36,7 +36,7 @@ lazy.setup({
   -- require("rin.theme.material").plugin,
 
   -- # UI
---  require("rin.UI.noice").plugin,
+  --  require("rin.UI.noice").plugin,
 
   -- # Buffer
   -- require("rin.buffer.barbar").plugin,
@@ -72,4 +72,5 @@ lazy.setup({
   -- # DAP
   require("rin.DAP.main").plugin,
 
+  -- require("rin.ndev.main").plugin
 })
