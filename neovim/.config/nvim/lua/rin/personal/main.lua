@@ -12,9 +12,9 @@ M.setup = function()
   -- # Personal Preferences
   vim.g.mapleader = ' '
   vim.g.maplocalleader = ' '
-
+  vim.api.nvim_set_option("clipboard", "unnamedplus");
   require("rin.personal.indent").setup()
-  -- require("rin.personal.line").setup()
+  require("rin.personal.line").setup()
   require("rin.personal.window").setup()
   -- require("rin.personal.tab").setup()
   require("rin.personal.mouse").setup()

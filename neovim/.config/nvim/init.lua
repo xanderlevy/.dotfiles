@@ -72,5 +72,7 @@ lazy.setup({
   -- # DAP
   require("rin.DAP.main").plugin,
 
+  -- # clipboard
+  -- require("rin.clipboard.main").plugin
   -- require("rin.ndev.main").plugin
 })
