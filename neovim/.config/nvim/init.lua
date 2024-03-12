@@ -26,17 +26,19 @@ require("rin.personal.main").setup()
 lazy.setup({
 
   -- # Theme
-  --require("rin.theme.tokyonight").plugin,
-  -- require("rin.theme.tokyodark").plugin,
-  -- require("rin.theme.iceberg").plugin,
-  -- require("rin.theme.kanagawa").plugin,
+  -- require("rin.theme.tokyonight").plugin,
+  --  require("rin.theme.tokyodark").plugin,
+  --  require("rin.theme.iceberg").plugin,
+  --  require("rin.theme.kanagawa").plugin,
   require("rin.theme.nightfox").plugin,
-  -- require("rin.theme.nightfly").plugin,
-  -- require("rin.theme.catppuccin").plugin,
-  -- require("rin.theme.material").plugin,
+  --  require("rin.theme.nightfly").plugin,
+  --  require("rin.theme.catppuccin").plugin,
+  --  require("rin.theme.material").plugin,
 
   -- # UI
   --  require("rin.UI.noice").plugin,
+
+  require("rin.whichkey.main").plugin,
 
   -- # Buffer
   -- require("rin.buffer.barbar").plugin,
@@ -75,4 +77,7 @@ lazy.setup({
   -- # clipboard
   -- require("rin.clipboard.main").plugin
   -- require("rin.ndev.main").plugin
+
+  require('rin.personal.vim-be-good').plugin
+
 })
